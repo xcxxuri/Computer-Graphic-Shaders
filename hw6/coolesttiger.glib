@@ -1,0 +1,29 @@
+##OpenGL GLIB
+
+Perspective 70
+LookAt 0 0 3  0 0 0  0 1 0
+
+Vertex   coolesttiger.vert
+Fragment coolesttiger.frag
+Program  coolesttiger			    \
+    uNoiseAmp <0. 0. 3.>  	    \
+	uNoiseFreq <0. 1. 10.>      \
+    uStripes <0. 0. 30.>        \
+    uSkinSmoothness <0. 1. 2.5> \
+	uKa <0. .2 1.>			    \
+	uKd <0. .5 1.>			    \
+	uKs <0. .4 1.>			    \
+	uShininess <.01 4. 10.>	    \
+    uLightX <-10. -7. 10.>	    \
+	uLightY <-10. 7. 10.>	    \
+	uLightZ <-10. 7. 10.>	    \
+	uFlat 		<0. 0. 1.>	    \
+	uSpecularColor {1. 1. 1. 1.}	\
+    WhiteStrips <0. .2 1.>      \
+    WhiteBlend <0. .4 1.>       \
+    OrangeStrips <0. .4 1.>     \
+    OrangeBlend <0. .8 1.>      \
+    StripMix <0. .4 1.>
+
+	
+Obj tigerstL.obj

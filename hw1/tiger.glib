@@ -1,0 +1,19 @@
+##OpenGL GLIB
+
+Perspective 90
+LookAt 0 0 2  0 0 0  0 1 0
+
+
+Vertex   oval.vert
+Fragment oval.frag
+Program  Oval				\
+	uAd <.001 .1 .5>		\
+	uBd <.001 .1 .5>		\
+	uTol <0. 0. 1.>			\
+	uKa <0. .2 1.>			\
+	uKd <0. .5 1.>			\
+	uKs <0. .3 1.>			\
+	uShininess <.01 1. 10.>
+Color 1. .2 .8
+Obj tiger.obj
+#Sphere 1 50 50

@@ -1,0 +1,32 @@
+##OpenGL GLIB
+
+Perspective 90
+LookAt 0 0 3  0 0 0  0 1 0
+Perspective 70
+
+Vertex   ovalnoise.vert
+Fragment ovalnoise.frag
+
+Program  Oval				\
+	uAd <.01 .05 .5>		\
+	uBd <.01 .05 .5>		\
+	uTol <0. 0. 1.>			\
+	uAlpha		<0. 1. 1.>	\
+	uNoiseAmp <0. 0. 1.>  	\
+    uNoiseFreq <0. 1. 10.>  \
+	uLightX <-100. -100. 100.>	\
+	uLightY <-100. -100. 100.>	\
+	uLightZ <-100. 100. 100.>	\
+	uKa <0. .2 1.>			\
+	uKd <0. .5 1.>			\
+	uKs <0. .3 1.>			\
+	uShininess <.01 1. 10.>	\
+	uFlat 		<0. 0. 1.>	\
+	uSpecularColor {1. 1. 1. 1.}	\
+	uDotColor {1. .65 0.}			\
+	uObjectColor {1. 1. 1.}
+
+	
+Obj tiger.obj
+#Sphere 1 50 50
+
